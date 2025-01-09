@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecdd0a"
+    android:orientation="vertical"
+    tools:context=".BCSProgram_Activity">
+
+    <!--Add an ImageView: display college logo-->
+    <ImageView
+        android:id="@+id/ames_logo"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:background="#FFFFFFFF"
+        android:contentDescription="college logo"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ames_logo" />
+
+    <!--Add a TextView: Title-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Bachelor of Creative Software"
+        android:textColor="#da0ae9"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <!--Add a TextView: BCS Program detail-->
+    <TextView
+        android:id="@+id/bcsDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:padding="5dp"
+        android:text="“Bring your creative ideas to life whilst exploring emerging and existing technology platforms. From concept design, coding to execution you will work on commercially relevant projects in a studio-like environment.
+\n\nWHAT YOU'LL LEARN (In short)
+\n+ Design and build the front and back-end of a website from scratch;
+\n+ Build and publish Apps for both Apple and Android mobile devices;
+\n+ Develop immersive Virtual Reality environments for the HTC Vive and + Oculus Rift;
+\n+ Create Augmented Reality Apps which interact with real world objects;
+\n+ Design and build playable games on mobile devices."
+        android:textColor="#8f1483"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+</LinearLayout>

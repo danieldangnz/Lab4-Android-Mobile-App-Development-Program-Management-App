@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1bacef"
+    android:orientation="vertical"
+    tools:context=".AboutCollege_Activity">
+
+    <!--Add an ImageView: display college logo-->
+    <ImageView
+        android:id="@+id/college_logo"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:background="#FFFFFFFF"
+        android:contentDescription="college logo"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ames_logo" />
+
+    <!--Add a TextView: Title-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="AMES IT"
+        android:textColor="#e4d744"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!--Add a TextView: AMES IT detail-->
+    <TextView
+        android:id="@+id/aboutAMESIT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:padding="5dp"
+        android:text="“Established in 1991, AMES is one of New Zealand’s leading IT education providers. It has been our mission to train our students in international qualifications (Microsoft, CISCO, CompTIA) so our graduates are successfully employed in their chosen IT career in New Zealand and throughout the world.
+        \n\nIn 2015, AMES was purchased by Animation College New Zealand Ltd, a New Zealand Qualifications Authority (NZQA) registered and accredited provider (PTE registration no. 9324).
+        \n\nAnimation College New Zealand Ltd is a Category One provider, established in 1989. It is the only creative educational institution to teach Animation at Diploma and Bachelor’s degree level with the first Bachelor of Animation with Honours developed for delivery from 2015."
+        android:textColor="#1013c9"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+</LinearLayout>
