@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Define the TextView properties for the items in the ListView-->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="3dp"
+    android:background="#f7f3f3"
+    android:gravity="left"
+    android:padding="10dp"
+    android:text="Textview properties"
+    android:textColor="#FF0000FF"
+    android:textSize="17sp"
+    android:textStyle="normal">
+
+</TextView>

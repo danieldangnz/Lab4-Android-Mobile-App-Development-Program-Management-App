@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#cacccb"
+    android:orientation="vertical"
+    tools:context=".ContactUs_Activity">
+
+    <!--ImageView: display illustration image-->
+    <ImageView
+        android:id="@+id/ames_logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:contentDescription="illustration image"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/illustration_image_contact_us" />
+
+    <!--TextView: display "title"-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="CONTACT US"
+        android:textColor="#1f3ccf"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!--TextView: contact detail-->
+    <TextView
+        android:id="@+id/aboutAMESIT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="5dp"
+        android:text="@string/contact_us"
+        android:textColor="#1b37c6"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <!--WebView: display college address on Google Map-->
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="2dp"
+        android:layout_weight="1" />
+</LinearLayout>

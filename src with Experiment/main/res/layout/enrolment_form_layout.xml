@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d6d3d3"
+    android:scrollbars="vertical"
+    tools:context=".Enrol_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <!--ImageView: display ames logo-->
+        <ImageView
+            android:id="@+id/collegelogo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="2dp"
+            android:background="#FFFFFFFF"
+            android:contentDescription="ames logo"
+            android:padding="5dp"
+            android:src="@drawable/collegelogo_transparent" />
+
+        <!--TextView: display title-->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Enrolment Form"
+            android:textColor="#3b0749"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <!--TextView: display instruction-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Please complete the enrolment form below and we’ll be in touch shortly with the next steps"
+            android:textColor="#15022b"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <!--TextView: Programme*-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="Programme*"
+            android:textColor="#15022b"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <!--Spinner: display a drop-down list of 7 AMES programmes-->
+        <Spinner
+            android:id="@+id/spinner_ames_programmes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0818a1"
+            android:layout_margin="5dp" />
+
+        <!--TextView: Name*-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Name*"
+            android:textColor="#15022b"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <!--Two EditText: for users to enter "first name" and "last name"-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--EditText: for entering first name-->
+            <EditText
+                android:id="@+id/firstnameEdt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:hint="First Name"
+                android:textColor="#0818a1"
+                android:inputType="textPersonName" />
+
+            <!--EditText: for entering last name-->
+            <EditText
+                android:id="@+id/lastnameEdt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="1"
+                android:hint="Last Name"
+                android:textColor="#0818a1"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <!--TextView: Email Address*-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="Email Address*"
+            android:textColor="#15022b"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <!--EditText: for entering email address-->
+        <EditText
+            android:id="@+id/emailEdt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColor="#0818a1"
+            android:inputType="textEmailAddress" />
+
+        <!--TextView: Mobile Number*-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="Mobile Number*"
+            android:textColor="#15022b"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <!--EditText: for entering phone number-->
+        <EditText
+            android:id="@+id/phoneNumberEdt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:textColor="#0818a1"
+            android:inputType="number" />
+
+        <!--TextView: Date of Birth*-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="Date of Birth*"
+            android:textColor="#15022b"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <!--EditText: for entering date of birth-->
+        <EditText
+            android:id="@+id/birthDateEdt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0818a1"
+            android:hint="Date of birth (DD/MM/YYYY)"
+            android:inputType="date" />
+
+        <!--TextView: Address*-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="Address*"
+            android:textColor="#15022b"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <!--EditText: for entering Address-->
+        <EditText
+            android:id="@+id/addressEdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:hint="Address"
+            android:textColor="#0818a1"
+            android:inputType="text" />
+
+        <!--TextView: Last Secondary/High-school*-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="Last Secondary/High-school*"
+            android:textColor="#15022b"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <!--EditText: for entering Last Secondary/High-school-->
+        <EditText
+            android:id="@+id/lastSecondaryEdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:textColor="#0818a1"
+            android:hint="Last Secondary/High-school"
+            android:inputType="text" />
+
+        <!--TextView: Domestic Student*-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="Domestic student*"
+            android:textColor="#15022b"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <RadioGroup
+            android:id="@+id/optionGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--RadioButton: Yes-->
+            <RadioButton
+                android:id="@+id/domestic_Yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Yes"
+                android:textColor="#ff00f2"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+            <!--RadioButton: No-->
+            <RadioButton
+                android:id="@+id/domestic_No"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="No"
+                android:textColor="#ff00f2"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+        </RadioGroup>
+
+        <!--Button: submit-->
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#0be6d3"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:text="Submit"
+            android:textColor="#f9f9f5"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
