@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#29b15b"
+    tools:context=".MainActivity">
+
+    <!--ImageView: display college logo-->
+    <ImageView
+        android:id="@+id/college_logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#FFFFFFFF"
+        android:contentDescription="college logo"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/collegelogo_transparent" />
+
+    <!--TextView: display title-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/college_logo"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Animation College Programmes"
+        android:textColor="#f1e61a"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!--ImageView: "About AMES"-->
+    <ImageView
+        android:id="@+id/aboutAMES"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/about_ames_icon"
+        android:contentDescription="ames icon" />
+
+
+    <!--ImageView: "About AC"  -->
+    <ImageView
+        android:id="@+id/aboutAC"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/about_ac_icon"
+        android:contentDescription="ac icon" />
+
+    <!--ImageView: display all programmes offered by AC-->
+    <ImageView
+        android:id="@+id/viewAllProgrammes"
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/aboutAC"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/programmes_icon"
+        android:contentDescription="programme icon" />
+
+    <!--ImageView: display apply_icon-->
+    <ImageView
+        android:id="@+id/apply"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/viewAllProgrammes"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/apply_icon"
+        android:contentDescription="online apply icon" />
+
+    <!--ImageView: display contact_us icon-->
+    <ImageView
+        android:id="@+id/contact_us"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/viewAllProgrammes"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/contactus_icon"
+        android:contentDescription="contact us icon" />
+</RelativeLayout>

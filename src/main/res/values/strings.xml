@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Animation College Programmes</string>
+
+    <!--Add "about_ames" variable-->
+    <string name="about_ames">Established in 1991, AMES is one of New Zealand\’s leading IT education providers. It has been our mission to train our students in international qualifications (Microsoft, CISCO, CompTIA) so our graduates are successfully employed in their chosen IT career in New Zealand and throughout the world.\n
+\nIn 2015, AMES was purchased by Animation College New Zealand Ltd, a New Zealand Qualifications Authority (NZQA) registered and accredited provider (PTE registration no. 9324).\n
+\nAnimation College New Zealand Ltd is a Category One provider, established in 1989. It is the only creative educational institution to teach Animation at Diploma and Bachelor\’s degree level with the first Bachelor of Animation with Honours developed for delivery from 2015.\n
+\nAnimation College New Zealand Ltd operates as two brands, Animation College and AMES – The Institute of IT.\n
+\nAnimation College, as the registered PTE, awards all of the qualifications that are offered by AMES - The Institute of IT. All programmes are New Zealand Qualifications Authority (NZQA) approved.
+    </string>
+
+    <!--Add "about_ac" variable-->
+    <string name="about_ac">Animation College was established in 1989 and has built a solid reputation since then as New Zealand\’s character animation specialists. \n
+\n<b>What makes us Unique?</b>\n
+\nAnimation College is a category 1 provider and is the ONLY college in NZ to offer degree and diploma level courses specialising in 2D and 3D animation.
+The College was founded by Ex-Disney Animator John Ewing (101 Dalmatians, The Jungle Book, Sword in the Stone) in 1989. Building a solid foundation of traditional animation knowledge.  \n
+\nWe stay in very close contact with the animation industry, so not only are we up to speed with the latest animation trends and technologies, we\’re constantly talking to the people and businesses that could be your employer one day.\n
+\nOur curriculum emphasises true character animation. No matter whether you chose to specialise in 2D or 3D, the principles of great animation remain the same. \n
+\nAt Animation College you\’ll learn how to create characters that convey real emotions, mimic life, and evoke empathy in the viewer. You\’ll also learn to tell stories that inspire, influence and entertain. Once learned, you\’ll have those skills for life and will find that they are transferable to any software, medium, or technology you will encounter in the industry today or in years to come.\n
+\nIt\’s this skill-base that makes our graduates unique and in demand locally and internationally across a wide range of disciplines, including: animation, illustration, design, gaming, app design, advertising, film and graphic novels or comic books.\n
+\nIf you have a passion for animation, you\’ll love the challenges and opportunities we can offer to expand your creative potential.
+    </string>
+
+    <!--Add "contact_us" variable-->
+    <string name="contact_us">1) Phone: 0800 263 748 (Local) \n     or +64 (9)373 4958 (International);
+\n(2) Visit us at: Level 11, 385 Queen Street, Auckland;
+\n(3) Map location: </string>
+
+    <!--
+    (1) AMES Degree: Bachelor of Creative Software
+    (2) AMES Diploma in Web and Application Development
+    (3) AMES Diploma in Networking
+    (4) AMES Diploma in Cloud Technology
+    (5) AMES Certificate in Information Technology Essentials
+    (6) AMES Certificate in Information and Client Support
+    (7) AMES Certificate in SQL Server Server Administration and Support
+    (8) AC Degree:  Bachelor of Animation
+    (9) AC Diploma in Animation
+    (10) AC Diploma in Applied Animation – 2D
+    (11) AC Diploma in Applied Animation – 3D
+    (12) AC Diploma in Digital Media
+    -->
+    <!--Add "all_programmes_array" array variable that contains 12 programmes of AC and AMES-->
+    <string-array name="all_programmes_array">
+        <item>AMES Degree: Bachelor of Creative Software</item>
+        <item>AMES Diploma in Web and Application Development</item>
+        <item>AMES Diploma in Networking</item>
+        <item>AMES Diploma in Cloud Technology</item>
+        <item>AMES Certificate in Information Technology Essentials</item>
+        <item>AMES Certificate in Information and Client Support</item>
+        <item>AMES Certificate in SQL Server Server Administration and Support</item>
+        <item>AC Degree:  Bachelor of Animation</item>
+        <item>AC Diploma in Animation</item>
+        <item>AC Diploma in Applied Animation - 2D</item>
+        <item>AC Diploma in Applied Animation - 3D</item>
+        <item>AC Diploma in Digital Media</item>
+    </string-array>
+</resources>
